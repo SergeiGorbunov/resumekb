@@ -25,8 +25,8 @@ const SystemAdminPresentation = () => {
         {/* Hero Section */}
         <section className={`mb-16 text-center ${glitchEffect ? 'text-purple-400' : 'text-blue-400'} transition-colors duration-300`}>
           <h1 className="md:text-5xl text-3xl md:text-7xl font-bold mb-4">
-            <span className="inline-block mr-6 transition-transform">Я СИСТЕМНЫЙ</span>
-            <span className="inline-block  transition-transform">АДМИНИСТРАТОР</span>
+            <span className="inline-block mr-6 mb-4 transition-transform">ГОРБУНОВ СЕРГЕЙ</span>
+            <span className="inline-block  transition-transform">СИСТЕМНЫЙ АДМИНИСТРАТОР</span>
           </h1>
           <p className="text-xl md:text-2xl mt-6">И немного фронтенд-разработчик</p>
         </section>
