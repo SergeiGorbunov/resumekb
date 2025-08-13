@@ -1,9 +1,9 @@
+// components/ProfessionalProfile.js
 'use client';
 
 import { motion } from 'framer-motion';
 import { useRef } from 'react';
 import { useInView } from 'framer-motion';
-import React from 'react';
 
 export default function ProfessionalProfile() {
   const ref = useRef(null);
@@ -19,7 +19,7 @@ export default function ProfessionalProfile() {
     {
       company: "ИП Горбунова",
       period: "Янв 2021 - Мар 2022",
-      position: "Технический специалист / Руководитель",
+      position: "Технический специалист",
       description: "Комплексная подготовка технической инфраструктуры магазина. Подбор и внедрение торгового оборудования, установка и настройка ПО 1С, обеспечение бесперебойной работы всех систем."
     },
     {
@@ -32,7 +32,7 @@ export default function ProfessionalProfile() {
       company: "ООО 'ОАЗИС'",
       period: "Сен 2022 - Апр 2023",
       position: "Грузчик",
-      description: "Комплектация товарных заказов, погрузочно-разгрузочные работы."
+      description: "Комплектация товарных заказов, погрузочно-разгрузочные работы, работа со складской документацией."
     },
     {
       company: "ООО 'ОАЗИС'",
@@ -118,7 +118,12 @@ export default function ProfessionalProfile() {
             className="h-1 bg-gradient-to-r from-blue-500 to-teal-400 w-24 mx-auto mt-6"
             variants={itemVariants}
           />
-
+          <motion.p 
+            className="mt-8 text-xl text-gray-600 max-w-3xl mx-auto"
+            variants={itemVariants}
+          >
+            Эксперт в IT-инфраструктуре и веб-разработке с фокусом на автоматизацию процессов и повышение эффективности систем
+          </motion.p>
         </motion.div>
 
         {/* Раздел с опытом работы */}
@@ -244,14 +249,24 @@ export default function ProfessionalProfile() {
               
               <p className="flex items-start">
                 <span className="mr-3">🚀</span>
-                <span><strong>Цель</strong> - Развитие в IT сфере как специалиста.</span>
+                <span><strong>Цель</strong> - Создание надежных IT-систем, решающих бизнес-задачи и повышающих эффективность работы.</span>
               </p>
             </div>
           </div>
         </motion.div>
 
         {/* Контактная информация */}
-
+        <motion.footer 
+          className="mt-16 text-center"
+          variants={itemVariants}
+        >
+          <div className="mt-8">
+            <button className="bg-gradient-to-r from-blue-600 to-teal-500 text-white px-8 py-3 rounded-full font-bold text-lg hover:scale-[1.03] transition-transform duration-300 shadow-lg shadow-blue-500/20">
+              Связаться со мной
+            </button>
+          </div>
+          <p className="mt-8 text-gray-600">© {new Date().getFullYear()} Профессиональное резюме</p>
+        </motion.footer>
       </div>
     </motion.div>
   );
