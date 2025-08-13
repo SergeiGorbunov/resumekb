@@ -56,11 +56,15 @@ const SystemAdminPresentation = () => {
                   </li>
                   <li className="flex items-center">
                     <span className="inline-block w-2 h-2 bg-blue-400 mr-2 rounded-full"></span>
-                    JavaScript/React (Middle)
+                    Виртуализация (Hyper-V, VirtualBox, KVM)
                   </li>
                   <li className="flex items-center">
                     <span className="inline-block w-2 h-2 bg-blue-400 mr-2 rounded-full"></span>
-                    Docker, Docker-compose, Portainer
+                    Контейнеризация (Docker, Docker-compose, Portainer)
+                  </li>
+                  <li className="flex items-center">
+                    <span className="inline-block w-2 h-2 bg-blue-400 mr-2 rounded-full"></span>
+                    JavaScript/React (Middle)
                   </li>
                   <li className="flex items-center">
                     <span className="inline-block w-2 h-2 bg-blue-400 mr-2 rounded-full"></span>
