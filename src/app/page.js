@@ -1,7 +1,7 @@
-import ProfessionalProfile from '@/(components)/ProfessionalProfile'
+import SystemAdminPresentation from '@/(components)/SystemAdminPresentation'
 export default function Home() {
   return (
-    <ProfessionalProfile />
+    <SystemAdminPresentation />
   )
 
 }
