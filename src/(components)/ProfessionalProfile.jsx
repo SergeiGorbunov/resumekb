@@ -118,12 +118,7 @@ export default function ProfessionalProfile() {
             className="h-1 bg-gradient-to-r from-blue-500 to-teal-400 w-24 mx-auto mt-6"
             variants={itemVariants}
           />
-          <motion.p 
-            className="mt-8 text-xl text-gray-600 max-w-3xl mx-auto"
-            variants={itemVariants}
-          >
-            Эксперт в IT-инфраструктуре и веб-разработке с фокусом на автоматизацию процессов и повышение эффективности систем
-          </motion.p>
+
         </motion.div>
 
         {/* Раздел с опытом работы */}
