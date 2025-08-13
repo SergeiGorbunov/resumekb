@@ -60,6 +60,10 @@ const SystemAdminPresentation = () => {
                   </li>
                   <li className="flex items-center">
                     <span className="inline-block w-2 h-2 bg-blue-400 mr-2 rounded-full"></span>
+                    Docker, Docker-compose, Portainer
+                  </li>
+                  <li className="flex items-center">
+                    <span className="inline-block w-2 h-2 bg-blue-400 mr-2 rounded-full"></span>
                     Настройка и поддержка 1С
                   </li>
                   <li className="flex items-center">
