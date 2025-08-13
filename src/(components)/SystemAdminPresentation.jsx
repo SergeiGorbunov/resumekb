@@ -118,6 +118,39 @@ const SystemAdminPresentation = () => {
               </div>
             </div>
 
+            <div className="relative pl-12 md:pl-0 md:flex md:odd:flex-row-reverse">
+              <div className="md:w-1/2 md:px-8">
+                <div className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/30 transition-shadow">
+                  <h3 className="text-xl font-bold text-blue-300 mb-2">Грузчик</h3>
+                  <p className="text-gray-400 mb-2">ИП Коротков А.E. | 09.2022 - 04.2023</p>
+                  <ul className="space-y-2 text-gray-300">
+                    <li>Комплектация товарных заказов</li>
+                    <li>Погрузочно-разгрузочные работы</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="absolute left-0 w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center md:left-1/2 md:-ml-4">
+                <div className="w-4 h-4 bg-blue-300 rounded-full"></div>
+              </div>
+            </div>
+            
+            <div className="relative pl-12 md:pl-0 md:flex md:odd:flex-row-reverse">
+              <div className="md:w-1/2 md:px-8">
+                <div className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-blue-500/30 transition-shadow">
+                  <h3 className="text-xl font-bold text-blue-300 mb-2">Специалист ОПП</h3>
+                  <p className="text-gray-400 mb-2">ООО 'Альфа-М' | 03.2022 - 08.2022</p>
+                  <ul className="space-y-2 text-gray-300">
+                    <li>Операционная работа с кассовым оборудованием</li>
+                    <li>управление товарными запасами</li>
+                    <li>минимизация потерь в торговой точке</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="absolute left-0 w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center md:left-1/2 md:-ml-4">
+                <div className="w-4 h-4 bg-blue-300 rounded-full"></div>
+              </div>
+            </div>
+
             {/* Previous experiences */}
             <div className="relative pl-12 md:pl-0 md:flex md:odd:flex-row-reverse">
               <div className="md:w-1/2 md:px-8">
